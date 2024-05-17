@@ -7,7 +7,6 @@ click @ file:///D:/bld/click_1692312014553/work
 colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
 dash @ file:///home/conda/feedstock_root/build_artifacts/dash_1714798254239/work
 Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1712667726126/work
-gunicorn==22.0.0
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1713279365350/work
 importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1710971335535/work
 itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1713372668944/work
