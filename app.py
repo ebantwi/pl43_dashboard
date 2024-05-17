@@ -5,12 +5,15 @@ from dash.dependencies import Input, Output
 # Import pages
 from pages.home import home_layout
 from pages.atr_dashboard import atr_dashboard_layout
+from pages.tim_dashboard import tim_dashboard_layout
 from pages.nopage import no_page_layout
 
 # Initialize the Dash app
 app = Dash(__name__, 
            external_scripts=[{'src': 'https://cdn.tailwindcss.com'}],
            suppress_callback_exceptions=True)
+
+server = app.server
 
 # Define the layout with a dcc.Location component
 app.layout = html.Div([
@@ -26,8 +29,12 @@ def display_page(pathname):
         return atr_dashboard_layout
     elif pathname == '/':
         return home_layout
+    elif pathname == '/tim_dashboard':
+        return tim_dashboard_layout
     else:
         return no_page_layout
 
+        #
+
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8051)
+    app.run_server(debug=True, port=8050)
