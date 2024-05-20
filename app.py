@@ -15,6 +15,27 @@ app = Dash(__name__,
 
 server = app.server
 
+app.index_string = ''' 
+<!DOCTYPE html>
+<html>
+    <head>
+        {%metas%}
+        <title>Dashboard Hub</title>
+        {%favicon%}
+        {%css%}
+    </head>
+    <body>
+        {%app_entry%}
+        <footer>
+            {%config%}
+            {%scripts%}
+            {%renderer%}
+        </footer>
+        <div></div>
+    </body>
+</html>
+'''
+
 # Define the layout with a dcc.Location component
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
@@ -34,7 +55,7 @@ def display_page(pathname):
     else:
         return no_page_layout
 
-        #
+
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    app.run_server(debug=False, port=8050)

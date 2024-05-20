@@ -2,12 +2,12 @@ from dash import html
 
 def NavHeader():
     page_logo = html.Div(
-                    className = "flex items-center p-16 ",
+                    className = "flex items-center p-12 ",
                     children = [
                         html.A(
-                                "ARL",
+                                "Dashboard Hub",
                                 href="/",
-                                className="text-white text-3xl font-bold tracking-wide hover:text-gray-200 px-3 py-2 rounded-md hover:transition-all duration-300 transform hover:scale-110"
+                                className="text-white text-2xl font-bold tracking-wide hover:text-gray-200 px-3 py-2 rounded-md hover:transition-all duration-300 transform hover:scale-110"
                                 ),
                     ]
     )
