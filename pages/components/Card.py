@@ -17,7 +17,7 @@ def Card():
                         className="text-2xl font-semibold text-gray-800 mb-1"
                     ),
                     html.P(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+                        "This tool provides a summary of traffic patterns across the state using the latest data from count stations, following the Traffic Monitoring Guide. It provides total traffic volumes and assesses the quality of data from each station. Detailed statistics are available at both the station level and aggregated by Functional Classification. Factors presented in this dashboard are relevant to traffic studies and for transportation planning.",
                         className="text-gray-600"
                     )
                 ]
@@ -41,7 +41,7 @@ def Card():
                         className="text-2xl font-semibold text-gray-800 mb-2"
                     ),
                     html.P(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+                        "Comprehensive analytics on traffic congestion, travel times, and reliability metrics provide data-driven insights that enhance the understanding of traffic patterns and aid in planning to improve overall travel efficiency. This information can be leveraged to make informed decisions, reduce congestion, and enhance the reliability of the state transportation network.",
                         className="text-gray-600"
                     )
                 ]
@@ -65,7 +65,7 @@ def Card():
                         className="text-2xl font-semibold text-gray-800 mb-2"
                     ),
                     html.P(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+                        "Comprehensive analytics on traffic incidents, response times, and impact metrics provide data-driven insights that enhance the understanding of incident patterns and aid in planning to improve overall traffic flow and safety. This information can be leveraged to make informed decisions, expedite incident responses, and minimize disruptions to the transportation network.",
                         className="text-gray-600"
                     )
                 ]
