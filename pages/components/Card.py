@@ -17,7 +17,7 @@ def Card():
                         className="text-2xl font-semibold text-gray-800 mb-1"
                     ),
                     html.P(
-                        "This tool provides a summary of traffic patterns across the state using the latest data from count stations, following the Traffic Monitoring Guide. It provides total traffic volumes and assesses the quality of data from each station. Detailed statistics are available at both the station level and aggregated by Functional Classification. Factors presented in this dashboard are relevant to traffic studies and for transportation planning.",
+                        "This tool provides a summary of traffic patterns across the state using the latest data from count stations, following the Traffic Monitoring Guide. It provides total traffic volumes and assesses the quality of data from each station. Detailed statistics are available at both the station level and aggregated by Functional Classification.",
                         className="text-gray-600"
                     )
                 ]
